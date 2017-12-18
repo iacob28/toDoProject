@@ -19,3 +19,8 @@ $("input[type='text']").keypress(function (event) {
         $(this).val("");
     }
 });
+
+//Toggle Input form
+$(".fa-plus").on("click", function () {
+    $("input[type='text']").fadeToggle();
+});
